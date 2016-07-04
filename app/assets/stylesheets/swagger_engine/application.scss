@@ -1,4 +1,6 @@
-//@import "style";
-@import "typography";
-@import "reset";
-@import "screen";
+/*
+*= require 'swagger_engine/style'
+*= require 'swagger_engine/reset'
+*= require 'swagger_engine/typography'
+*= require 'swagger_engine/screen'
+*/

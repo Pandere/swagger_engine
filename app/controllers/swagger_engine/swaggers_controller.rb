@@ -2,7 +2,7 @@ require_dependency "swagger_engine/application_controller"
 
 module SwaggerEngine
   class SwaggersController < ApplicationController
-    layout false
+    layout 'swagger_engine/application'
 
     def index
       redirect_to swagger_path(json_files.first[0]) if ( json_files.size == 1 )
